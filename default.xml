@@ -29,6 +29,11 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
+  <!-- aospa-sm6150 -->
+  <remote  name="aospa-sm6150"
+           fetch="https://github.com"
+           revision="topaz" />
+
   <!-- AOSPA -->
   <remote  name="aospa"
            fetch=".."
